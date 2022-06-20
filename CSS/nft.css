@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --Soft-blue: hsl(215, 51%, 70%);
+    --Cyan: hsl(178, 100%, 50%);
+    --Very-dark-blue: hsl(217, 54%, 11%);
+    --Very-blue: hsl(216, 50%, 16%);
+    --dark-blue: hsl(215, 32%, 27%);
+    --White: hsl(0, 0%, 100%);
+
+}
+body{
+    background: var(--Very-dark-blue);
+    margin: 5%;
+    font-family: 'Outfit', sans-serif;
+}
+.box{
+    box-shadow: 3px 4px 4px var(--Very-blue);
+    background: var(--Very-blue);
+    width: 30%;
+    margin-left: 30%;
+    border-radius: 5%;
+    padding: 2%;
+}
+figure .showcase{
+    width: 100%;
+    height: 20%;
+    border-radius: 5%;
+}
+.images{
+    position: relative;
+}
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 99%;
+    background: var(--Cyan);
+    opacity: 0;
+    transition: opacity 0.25s;
+    border-radius: 5%;
+}
+.overlay:hover{
+    cursor: pointer;
+    color: var(--Cyan);
+    opacity: 20%;
+}
+h3 a{
+    margin-top: 3%;
+    color: var(--White);
+    font-weight: 600;
+    text-decoration: none;
+}
+h3 :hover{
+     cursor: pointer;
+     color: var(--Cyan);
+}
+.case{
+    margin-top: 5%;
+    opacity: 50%;
+    color: var(--White);
+    width: 90%;
+    font-weight: 400;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 35%;
+    padding: 3%;
+}
+.left{
+    display: flex;
+    margin-top: 5%;
+    gap: 5%;
+    width: 50%;
+}
+.left .eth{
+    margin-top: 5%;
+    width: 10%;
+    height: 20%;
+}
+.left p{
+    color: var(--Cyan);
+    opacity: 70%;
+}
+.right{
+    display: flex;
+    margin-top: 5%;
+    gap: 5%;
+    width: 50%;
+}
+.right .clock{
+    margin-top: 5%;
+    width: 20%;
+    height: 10%;
+} 
+hr{
+    color: var(--Cyan);
+    opacity: 5%;
+}
+.avatar{
+    margin: 3%;
+    display: flex;
+    gap: 2%;
+}
+.avatar img{
+    margin-top: 3%;
+    width: 10%;
+    height: 5%;
+    border: 2px solid var(--White);
+    border-radius: 50%;
+}
+ .para{
+    width: 100%;
+    opacity: 70%;
+    margin-top: 5%;
+    color: var(--White);
+    font-size: 15px;
+    font-weight: 300;
+}
+span a{
+    color: var(--White);
+    opacity: 100%;
+    font-weight: 600;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+span :hover{
+    cursor: pointer;
+    color: var(--Cyan);
+}
+footer{
+    margin-top: 5%;
+    text-align: center;
+    opacity: 50%;
+    color: var(--White);
+}
+@media(max-width: 1000px){
+    .box{
+        width: 50%;
+        margin-left: 30%;
+    }
+}
+@media(max-width: 500px){
+    .box{
+        width: 90%;
+        margin-left: 7%;
+    }
+}
+@media(max-width: 375px){
+    .box{
+        width: 90%;
+        margin-left: 3%;
+    }
+}
