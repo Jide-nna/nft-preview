@@ -108,7 +108,7 @@ hr{
 .avatar{
     margin: 3%;
     display: flex;
-    gap: 2%;
+    gap: 3%;
 }
 .avatar img{
     margin-top: 3%;
@@ -171,6 +171,9 @@ footer{
     .right .case{
         margin-top: 5%;
     }
+    .avatar{
+        gap: 5%;
+    }
 }
 @media(max-width: 250px){
     .box{
@@ -180,4 +183,10 @@ footer{
     .flex{
         gap: 5%:
     }
+    .avatar{
+            gap: 3%;
+        }
+        .avatar img{
+            margin-top: 5%;
+        }
 }
