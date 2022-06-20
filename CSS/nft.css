@@ -21,7 +21,7 @@ body{
 .box{
     box-shadow: 3px 4px 4px var(--Very-blue);
     background: var(--Very-blue);
-    width: 30%;
+    width: 50%;
     margin-left: 30%;
     border-radius: 5%;
     padding: 3%;
@@ -147,6 +147,12 @@ footer{
         width: 50%;
         margin-left: 30%;
     }
+    .flex{
+        gap: 20%;
+    }
+    .right .case{
+        margin-top: 8%;
+    }
 }
 @media(max-width: 500px){
     .box{
@@ -161,6 +167,9 @@ footer{
     }
     .flex{
         gap: 20%:
+    }
+    .right .case{
+        margin-top: 5%;
     }
 }
 @media(max-width: 250px){
