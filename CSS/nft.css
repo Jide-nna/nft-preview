@@ -46,6 +46,13 @@ figure .showcase{
     transition: opacity 0.25s;
     border-radius: 5%;
 }
+.overlay img{
+    position: absolute;
+    top:40%;
+    left: 40%;
+    width: 20%;
+    filter: brightness(1) invert(0);
+}
 .overlay:hover{
     cursor: pointer;
     color: var(--Cyan);
