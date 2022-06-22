@@ -21,7 +21,7 @@ body{
 .box{
     box-shadow: 3px 4px 4px var(--Very-blue);
     background: var(--Very-blue);
-    width: 50%;
+    width: 35%;
     margin-left: 30%;
     border-radius: 5%;
     padding: 3%;
@@ -51,7 +51,7 @@ figure .showcase{
     top:40%;
     left: 40%;
     width: 20%;
-    filter: brightness(1) invert(0);
+    filter: brightness(0) invert(0);
 }
 .overlay:hover{
     cursor: pointer;
@@ -149,9 +149,9 @@ footer{
     opacity: 50%;
     color: var(--White);
 }
-@media(max-width: 1000px){
+@media(max-width: 1024px){
     .box{
-        width: 50%;
+        width: 40%;
         margin-left: 30%;
     }
     .flex{
@@ -163,14 +163,14 @@ footer{
 }
 @media(max-width: 500px){
     .box{
-        width: 90%;
-        margin-left: 7%;
+        width: 65%;
+        margin-left: 20%;
     }
 }
 @media(max-width: 375px){
     .box{
-        width: 90%;
-        margin-left: 3%;
+        width: 85%;
+        margin-left: 10%;
     }
     .flex{
         gap: 20%:
